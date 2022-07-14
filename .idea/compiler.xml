@@ -6,16 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tollrate-ui" />
         <module name="fastpass-service" />
+        <module name="tollrate-service" />
+        <module name="fastpass-ui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fastpass-service" target="11" />
+      <module name="fastpass-ui" target="11" />
+      <module name="tollrate-service" target="11" />
+      <module name="tollrate-ui" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="fastpass-service" options="-parameters" />
+      <module name="fastpass-ui" options="-parameters" />
+      <module name="tollrate-service" options="-parameters" />
+      <module name="tollrate-ui" options="-parameters" />
     </option>
   </component>
 </project>

@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fastpass-service/fastpass-service.iml" filepath="$PROJECT_DIR$/fastpass-service/fastpass-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module3/fastpass-ui/fastpass-ui.iml" filepath="$PROJECT_DIR$/Module3/fastpass-ui/fastpass-ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-spring-cloud-cordinating-services.iml" filepath="$PROJECT_DIR$/java-spring-cloud-cordinating-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module3/tollrate-service/tollrate-service.iml" filepath="$PROJECT_DIR$/Module3/tollrate-service/tollrate-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module3/tollrate-ui/tollrate-ui.iml" filepath="$PROJECT_DIR$/Module3/tollrate-ui/tollrate-ui.iml" />
     </modules>
   </component>
 </project>
